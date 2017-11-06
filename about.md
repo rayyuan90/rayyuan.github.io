@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-##### WHAT I KNOW
+##### WHAT I KNOW class redhead{}
 
 Primiry good at Angular.js jQuery Framework, HTML, CSS, Sass. with strong foundation and knowledge about base JavaScript. Has write many prototype JavaScript to suit for different Web Browser.
 
