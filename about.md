@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-##### WHAT I KNOW class redhead{}
+### WHAT I KNOW
 
 Primiry good at Angular.js jQuery Framework, HTML, CSS, Sass. with strong foundation and knowledge about base JavaScript. Has write many prototype JavaScript to suit for different Web Browser.
 
@@ -15,8 +15,7 @@ user experience and data safty.
 
 Good with WebPack Publishing Tool.
 
----
-##### WHO I AM
+### WHO I AM
 
 Self-motivated, self-taught quick learner. That's how i defined myself.
 
