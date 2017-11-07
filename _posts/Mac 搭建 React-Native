@@ -1,0 +1,1249 @@
+
+
+<html>
+<head>
+            <link rel="canonical" href="http://blog.csdn.net/xiangzhihong8/article/details/62246950"/> 
+
+    <script type="text/javascript">
+        var username = "xiangzhihong8";var _blogger = username;var blog_address = "http://blog.csdn.net/xiangzhihong8";var static_host = "http://static.blog.csdn.net";
+        var currentUserName = ""; var fileName = '62246950';var commentscount = 0; var islock = false
+        window.quickReplyflag = true;
+        var totalFloor=0;
+                
+                 var isBole = false;
+                
+                
+                 var isDigg = false;
+                
+            
+             var isExpert=true;
+            
+          
+        var isAdm=false;
+        
+
+    </script>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script src="http://c.csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="http://c.csdnimg.cn/public/common/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://c.csdnimg.cn/public/static/css/avatar.css">
+    <link type="text/css" rel="stylesheet" href="http://static.blog.csdn.net/scripts/SyntaxHighlighter/styles/default.css" />
+    <link rel="stylesheet" href="http://static.blog.csdn.net/Skin/skin3-template/css/style.css?v=2017.042">
+    <link rel="stylesheet" href="http://c.csdnimg.cn/public/common/toolbar/content_toolbar_css/content_toolbar.css?v5.00.37">
+              <!-- adhoc sdk -->
+		<script src=https://sdk.appadhoc.com/ab.plus.js></script>
+		<script>
+		adhoc('init', {
+		  appKey: 'ADHOC_0e0bce4f-8793-4f68-89cf-34c14f2532bb',
+		  defaultFlags: {isLogin: true}
+		})
+		</script>
+              <!-- adhoc sdk end -->
+    
+	<script src="//static.blog.csdn.net/public/switchHome/switchHome.js?v=2017.43"></script>	
+	
+    <script type="text/javascript" src="http://static.blog.csdn.net/Skin/skin3-template/fonts/iconfont.js"></script>
+    <script src="//csdnimg.cn/rabbit/exposure-click/main.js?v1.15.23"></script>
+    <script type="text/javascript" src="http://c.csdnimg.cn/pubfooter/js/tracking_for_recommend.js?v=0911" charset="utf-8"></script>
+    <script type="text/javascript" src="http://csdnimg.cn/pubfooter/js/tracking.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://static.blog.csdn.net/scripts/cnick.js" charset="utf-8"></script>
+ 
+    <link rel="stylesheet" href="http://static.blog.csdn.net/code/prettify.css" />
+    <script type="text/javascript" src="http://static.blog.csdn.net/code/prettify.js"></script>
+<script src="http://dup.baidustatic.com/js/ds.js"></script>
+    <script type="text/javascript">
+
+        // Traffic Stats of the entire Web site By baidu
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6bcd52f51e9b3dce32bec4a3997715ac";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        // Traffic Stats of the entire Web site By baidu end
+
+
+
+    </script>
+    <meta name="description" content="关于如何在mac下搭建React环境这里就不详细介绍了，有兴趣的朋友可以看：在Mac上搭建RN基础环境，今天要说的是如何在mac下使用Atom＋Nuclide组合环境来开发项目。安装Atom如果没有的大家可以到官网下载：https://atom.io/，也可以到国内的镜像地址下载：https://npm.taobao.org/mirrors/atom/1.7.2/ 
+解压atom，打开atom，你看" />
+    <meta name="keywords" content="atom,mac" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
+
+
+    <title>Mac搭建 React Native 工具篇Atom＋Nuclide - CSDN博客</title>
+</head>
+<body>
+<script id="toolbar-tpl-scriptId" prod="download" skin="black" src="http://c.csdnimg.cn/public/common/toolbar/js/content_toolbar.js?v5.00.37" type="text/javascript" domain="http://blog.csdn.net"></script>
+
+<div class="container clearfix">
+    <main>
+        <article>
+            <h1 class="csdn_top">Mac搭建 React Native 工具篇Atom＋Nuclide</h1>
+            <div class="article_bar clearfix">
+                <div class="artical_tag">
+                    <span class="original">原创</span>
+                    <span class="time">2017年03月15日 22:43:07</span>
+                </div>
+				<ul class="article_tags clearfix csdn-tracking-statistics" data-mod="popu_377">
+					<li class="tit">标签：</li>
+					
+					<li><a href="http://so.csdn.net/so/search/s.do?q=atom&t=blog" target="_blank">atom</a> <span>/</span></li>
+					
+					<li><a href="http://so.csdn.net/so/search/s.do?q=mac&t=blog" target="_blank">mac</a> <span>/</span></li>
+					
+					<li><a href="http://so.csdn.net/so/search/s.do?q=native&t=blog" target="_blank">native</a> <span>/</span></li>
+					
+				</ul>
+                <ul class="right_bar">
+                    <li><button class="btn-noborder"><i class="icon iconfont icon-read"></i><span class="txt">2944</span></button></li>
+                    <!--<li><button class="btn-noborder"><i class="icon iconfont icon-dashang-"></i><span class="txt">0</span></button></li>-->
+
+                    <li class="edit">
+                        <a class="btn-noborder" href="" >
+                            <i class="icon iconfont icon-bianji"></i><span class="txt">编辑</span>
+                        </a>
+                    </li>
+                    <li class="del">
+                        <a class="btn-noborder" onclick="javascript:deleteArticle(fileName);return false;">
+                            <i class="icon iconfont icon-shanchu"></i><span class="txt">删除</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="article_content" class="article_content csdn-tracking-statistics" data-mod="popu_519" data-dsm="post">
+                <div class="markdown_views"><p>关于如何在mac下搭建React环境这里就不详细介绍了，有兴趣的朋友可以看：<a href="http://blog.csdn.net/xiangzhihong8/article/details/53914336">在Mac上搭建RN基础环境</a>，今天要说的是如何在mac下使用Atom＋Nuclide组合环境来开发项目。</p>
+
+
+
+<h2 id="安装atom">安装Atom</h2>
+
+<p>如果没有的大家可以到官网下载：<a href="https://atom.io/">https://atom.io/</a>，也可以到国内的镜像地址下载：<a href="https://npm.taobao.org/mirrors/atom/1.7.2/">https://npm.taobao.org/mirrors/atom/1.7.2/</a> <br>
+<img src="http://img.blog.csdn.net/20170315223415570?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>解压atom，打开atom，你看到的界面应该是这样的 。</p>
+
+<p><img src="http://img.blog.csdn.net/20170315223817447?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+
+
+<h2 id="安装nuclide">安装Nuclide</h2>
+
+<p>安装Nuclide插件有两种方式。</p>
+
+
+
+<h3 id="1图形化安装">1.图形化安装：</h3>
+
+<p>点击菜单栏：Atom-&gt;Preferences,或者可以”Command+,”，或者快捷键打开。然后，在Install Packets的输入框中，输入nuclide，出现的第一个就是我们想要安装的，点击install 。 <br>
+<img src="http://img.blog.csdn.net/20170315224248480?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>安装完成之后，在工具栏多了一个Nuclide栏。</p>
+
+<p><img src="http://img.blog.csdn.net/20170315224439168?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>默认安装nuclide之后，会安装一大堆的依赖包，如果没有默认安装这些依赖包，可以选中,Packages-&gt;Settings View-&gt;Manage Packets </p>
+
+<p><img src="http://img.blog.csdn.net/20170315224730935?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>搜索nuclide，再nuclide package上双击，进入设置，勾选Install recommended packets on startup 。</p>
+
+<p><img src="http://img.blog.csdn.net/20170315224859682?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>最后重启atom，就可以看到nuclide插件了。</p>
+
+
+
+<h3 id="命令行安装">命令行安装：</h3>
+
+<p>安装命令，对应的git<a href="https://github.com/atom/apm">https://github.com/atom/apm</a>：</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs cmake">apm <span class="hljs-keyword">install</span> nuclide</code></pre>
+
+<p>命令行安装完成后，打开Atom，选择Packages-&gt;Settings View-&gt;Manage Packets ， 然后选择Packages，Nuclide中点击Settings。</p>
+
+<p><img src="http://img.blog.csdn.net/20170315225127922?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>勾选Install recommended packets on startup 。</p>
+
+<p><img src="http://img.blog.csdn.net/20170315225206063?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+
+
+<h2 id="在nuclide运行项目">在Nuclide运行项目</h2>
+
+<p>第一步，运行react native packager。点击 command + shift + p打开command palette（打开终端选项），然后输入：</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs java">react <span class="hljs-keyword">native</span> start</code></pre>
+
+<p><img src="http://img.blog.csdn.net/20170316123216148?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>选择Nuclide React Native :Start packager。</p>
+
+<p>当然我们也可以使用Nuclide的图形化界面。</p>
+
+<p><img src="http://img.blog.csdn.net/20170317142213762?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>注：常见错误：</p>
+
+<pre class="prettyprint"><code class=" hljs avrasm">/Users/huangwenchen/Desktop/Demo/node_modules/react-native/local-<span class="hljs-keyword">cli</span>/<span class="hljs-keyword">cli</span><span class="hljs-preprocessor">.js</span>:<span class="hljs-number">123</span>
+class CreateSuppressingTerminalAdapter extends TerminalAdapter {
+^^^^^
+<span class="hljs-label">SyntaxError:</span> Unexpected reserved word
+    at exports<span class="hljs-preprocessor">.runInThisContext</span> (vm<span class="hljs-preprocessor">.js</span>:<span class="hljs-number">73</span>:<span class="hljs-number">16</span>)
+    at Module._compile (module<span class="hljs-preprocessor">.js</span>:<span class="hljs-number">443</span>:<span class="hljs-number">25</span>)
+    at Object<span class="hljs-preprocessor">.Module</span>._extensions.<span class="hljs-preprocessor">.js</span> (module<span class="hljs-preprocessor">.js</span>:<span class="hljs-number">478</span>:<span class="hljs-number">10</span>)
+    at Module<span class="hljs-preprocessor">.load</span> (module<span class="hljs-preprocessor">.js</span>:<span class="hljs-number">355</span>:<span class="hljs-number">32</span>)
+    at Function<span class="hljs-preprocessor">.Module</span>._load (module<span class="hljs-preprocessor">.js</span>:<span class="hljs-number">310</span>:<span class="hljs-number">12</span>)
+    at Function<span class="hljs-preprocessor">.Module</span><span class="hljs-preprocessor">.runMain</span> (module<span class="hljs-preprocessor">.js</span>:<span class="hljs-number">501</span>:<span class="hljs-number">10</span>)
+    at startup (node<span class="hljs-preprocessor">.js</span>:<span class="hljs-number">129</span>:<span class="hljs-number">16</span>)
+    at node<span class="hljs-preprocessor">.js</span>:<span class="hljs-number">814</span>:<span class="hljs-number">3</span></code></pre>
+
+<p>说明你node的版本太低,运行以下命令更新。</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs bash"><span class="hljs-built_in">sudo</span> npm cache clean <span class="hljs-operator">-f</span>
+<span class="hljs-built_in">sudo</span> npm install -g n
+<span class="hljs-built_in">sudo</span> n stable</code></pre>
+
+<p>第二步，终端运行项目 。 <br>
+cd到项目目录，执行。</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs lasso">$ react<span class="hljs-attribute">-native</span> run<span class="hljs-attribute">-ios</span>
+$ react<span class="hljs-attribute">-native</span> run<span class="hljs-attribute">-android</span>
+</code></pre>
+
+<p><img src="http://img.blog.csdn.net/20170316125157928?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+
+
+<h2 id="navigator实例">navigator实例</h2>
+
+<p>首先先来看一下效果图。 <br>
+<img src="http://img.blog.csdn.net/20170317142755904?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhbmd6aGlob25nOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<p>导入react-native-tab-navigator框架，在项目目录下：</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs lasso">npm install react<span class="hljs-attribute">-native</span><span class="hljs-attribute">-tab</span><span class="hljs-attribute">-navigator</span> –save</code></pre>
+
+<p>然后在项目中引入：</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs python"><span class="hljs-keyword">import</span> TabNavigator <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native-tab-navigator'</span>;</code></pre>
+
+<p>完整代码：</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs coffeescript">/**
+ * Sample React Native App
+ * <span class="hljs-attribute">https</span>:<span class="hljs-regexp">//gi</span>thub.com/facebook/react-<span class="hljs-reserved">native</span>
+ * <span class="hljs-property">@flow</span>
+ */
+
+<span class="hljs-reserved">import</span> React, { Component } from <span class="hljs-string">'react'</span>;
+<span class="hljs-reserved">import</span> {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View,
+  Image
+} from <span class="hljs-string">'react-native'</span>;
+
+<span class="hljs-reserved">import</span> TabNavigator from <span class="hljs-string">'react-native-tab-navigator'</span>;
+
+<span class="hljs-reserved">export</span> <span class="hljs-reserved">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Shop</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> {</span>
+
+  constructor(props) {
+          <span class="hljs-keyword">super</span>(props);
+          <span class="hljs-keyword">this</span>.state={
+              <span class="hljs-attribute">selectedTab</span>:<span class="hljs-string">'home'</span><span class="hljs-regexp">//</span>默认选中home
+          }
+      }
+
+  render() {
+
+    <span class="hljs-reserved">var</span> homeView=(
+                &lt;View style={[styles.flex,styles.center,{<span class="hljs-attribute">backgroundColor</span>: <span class="hljs-string">'#ffff0044'</span>}]}&gt;
+                    &lt;Text style={{<span class="hljs-attribute">fontSize</span>: <span class="hljs-number">30</span>}}&gt;首页&lt;/Text&gt;
+                &lt;/View&gt;
+            );
+            <span class="hljs-reserved">var</span> settingView=(
+                &lt;View style={[styles.flex,styles.center,{<span class="hljs-attribute">backgroundColor</span>: <span class="hljs-string">'#ffff0044'</span>}]}&gt;
+                    &lt;Text style={{<span class="hljs-attribute">fontSize</span>: <span class="hljs-number">30</span>}}&gt;设置&lt;/Text&gt;
+                &lt;/View&gt;
+            );
+
+    <span class="hljs-keyword">return</span> (
+
+         &lt;TabNavigator
+               tabBarStyle={{ <span class="hljs-attribute">height</span>: <span class="hljs-number">70</span> }}
+           &gt;
+               &lt;TabNavigator.Item
+                   selected={<span class="hljs-keyword">this</span>.state.selectedTab === <span class="hljs-string">'home'</span>}
+                   title=<span class="hljs-string">"首页"</span> <span class="hljs-regexp">//</span>Tab文字
+                   renderIcon={<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> &lt;Image style={styles.img} source={<span class="hljs-built_in">require</span>(<span class="hljs-string">'./image/tab_message_n.png'</span>) }<span class="hljs-regexp">/&gt;}/</span>/默认图标
+                   renderSelectedIcon={<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> &lt;Image style={styles.img} source={<span class="hljs-built_in">require</span>(<span class="hljs-string">'./image/tab_message_n.png'</span>) }<span class="hljs-regexp">/&gt;}/</span>/选中图标
+                   badgeText=<span class="hljs-string">"9+"</span><span class="hljs-regexp">//</span>消息数目
+                   onPress={<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attribute">selectedTab</span>: <span class="hljs-string">'home'</span> })}
+               &gt;
+                   {homeView}
+               &lt;/TabNavigator.Item&gt;
+               &lt;TabNavigator.Item
+                   selected={<span class="hljs-keyword">this</span>.state.selectedTab === <span class="hljs-string">'setting'</span>}
+                   title=<span class="hljs-string">"设置"</span>
+                   renderIcon={<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> &lt;Image style={styles.img} source={<span class="hljs-built_in">require</span>(<span class="hljs-string">'./image/tab_mine_n.png'</span>) }/&gt;}
+                   renderSelectedIcon={<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> &lt;Image style={styles.img} source={<span class="hljs-built_in">require</span>(<span class="hljs-string">'./image/tab_mine_p.png'</span>) }/&gt;}
+                   onPress={<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attribute">selectedTab</span>: <span class="hljs-string">'setting'</span> })}
+               &gt;
+                   {settingView}
+               &lt;/TabNavigator.Item&gt;
+           &lt;/TabNavigator&gt;
+    );
+  }
+}
+
+<span class="hljs-reserved">const</span> styles = StyleSheet.create({
+  <span class="hljs-attribute">flex</span>:{
+        <span class="hljs-attribute">flex</span>:<span class="hljs-number">1</span>,
+    },
+    <span class="hljs-attribute">center</span>:{
+        <span class="hljs-attribute">justifyContent</span>:<span class="hljs-string">'center'</span>,
+        <span class="hljs-attribute">alignItems</span>:<span class="hljs-string">'center'</span>
+    },
+    <span class="hljs-attribute">img</span>: {
+        <span class="hljs-attribute">width</span>: <span class="hljs-number">45</span>,
+            <span class="hljs-attribute">height</span>: <span class="hljs-number">35</span>,
+    },
+});
+
+AppRegistry.registerComponent<span class="hljs-function"><span class="hljs-params">(<span class="hljs-string">'Shop'</span>, () =&gt; Shop)</span>;
+</span></code></pre>
+
+<p>注：项目所用的图片放在image/*下。</p><link rel="stylesheet" href="http://static.blog.csdn.net/public/res-min/markdown_views.css?v=2.0" /></div><link rel="stylesheet" href="http://static.blog.csdn.net/public/res-min/markdown_views.css?v=2.0" />
+            </div>
+        </article>
+        <div class="readall_box csdn-tracking-statistics" data-mod="popu_376">
+			<div class="read_more_mask"></div>
+            <a class="btn btn-large btn-gray-fred read_more_btn" target="_self">阅读全文</a>
+        </div>
+        <div class="article_copyright">
+            版权声明：本文为博主原创文章，未经博主允许不得转载。
+        </div>
+        <!--  <div class="reward_box">
+            <div class="tit">
+              <button class="btn_reward"><i class="icon iconfont icon-dashang-"></i></button>
+            </div>
+            <dl class="clearfix">
+              <dt><a href="#" target="_blank">近期打赏</a></dt>
+              <dd><a href="#" target="_blank"><img src="http://avatar.csdn.net/9/3/2/2_nzf_001.jpg" alt="聂兆芳" title="聂兆芳"></a></dd>
+              <dd><a href="#" target="_blank"><img src="http://avatar.csdn.net/9/3/2/2_nzf_001.jpg" alt="聂兆芳" title="聂兆芳"></a></dd>
+              <dd><a href="#" target="_blank"><img src="http://avatar.csdn.net/9/3/2/2_nzf_001.jpg" alt="聂兆芳" title="聂兆芳"></a></dd>
+              <dd><a href="#" target="_blank"><img src="http://avatar.csdn.net/9/3/2/2_nzf_001.jpg" alt="聂兆芳" title="聂兆芳"></a></dd>
+              <dd><a href="#" target="_blank"><img src="http://avatar.csdn.net/9/3/2/2_nzf_001.jpg" alt="聂兆芳" title="聂兆芳"></a></dd>
+            </dl>
+          </div>-->
+
+        <ul class="article_collect clearfix csdn-tracking-statistics"  data-mod="popu_378">
+            <li class="tit">本文已收录于以下专栏：</li>
+            
+            <li><a href="http://blog.csdn.net/column/details/reactnative-android.html" target="_blank">React Native</a></li>
+            
+        </ul>
+        <div class="comment_box clearfix">
+            <div id="comment_form">
+                <div id="commentsbmitarear">
+                    <!-- <h6><span>0</span>条评论</h6> -->
+           <!--          <dl class="clearfix" id="commentbox">
+                        <dt>
+                            <a href="http://my.csdn.net/"><img src="" ></a>
+                        </dt>
+                        <dd>
+                            <a href="http://my.csdn.net/" target="_blank"></a>
+                        </dd>
+                        <dd class="txt_tip"><span id="tip_comment" class="tip"></span></dd>
+                    </dl> -->
+                    <div class="comment_area clearfix">
+						<div class="userimg"><a href="http://my.csdn.net/"><img src=""></a></div>
+                        <form action="/xiangzhihong8/comment/submit?id=62246950" method="post" onsubmit="return subform(this);" id="commentform">
+                            <textarea class="comment_content" name="comment_content" id="comment_content" placeholder="发表你的评论"></textarea>
+                            <div class="bot_bar clearfix">
+                                <div id="ubbtools" class="add_code">
+                                    <a href="#insertcode" code="code" target="_self"><i class="icon iconfont icon-daima"></i></a>
+                                </div>
+
+                                <input type="hidden" id="comment_replyId" name="comment_replyId">
+                                <input type="hidden" id="comment_userId" name="comment_userId" value="">
+                                <input type="hidden" id="commentId" name="commentId" value="">
+                                <input type="submit" class="btn btn-redborder" value="发表评论">
+								<span id="tip_comment" class="tip">
+                                <div style="display: none;" class="csdn-tracking-statistics" data-mod="popu_384"><a href="#" target="_blank" class="comment_area_btn">发表评论</a></div>
+
+                                <div id="lang_list" code="code">
+                                    <a href="#html" style="width:95px;" class="long_name" target="_self">HTML/XML</a>
+                                    <a href="#objc" style="width:95px;" class="long_name" target="_self">objective-c</a>
+                                    <a href="#delphi" style="width:58px;" class="zhong_name" target="_self">Delphi</a>
+                                    <a href="#ruby" class="zhong_name" target="_self">Ruby</a>
+                                    <a href="#php" target="_self">PHP</a>
+                                    <a href="#csharp" class="duan_name" target="_self">C#</a>
+                                    <a style=" border-right: none;" href="#cpp" class="duan_name" target="_self">C++</a>
+                                    <a style=" border-bottom:none;width:95px;" href="#javascript" class="long_name" target="_self">JavaScript</a>
+                                    <a style=" border-bottom:none;width:95px;" href="#vb" class="long_name" target="_self">Visual Basic</a>
+                                    <a style=" border-bottom:none;" href="#python" class="zhong_name" target="_self">Python</a>
+                                    <a style=" border-bottom:none;" href="#java" class="zhong_name" target="_self">Java</a>
+                                    <a style="border-bottom:none;" href="#css" class="duan_name" target="_self">CSS</a>
+                                    <a style="border-bottom:none;" href="#sql" class="duan_name" target="_self">SQL</a>
+                                    <a style="border:none; " href="#plain" class="duan_name" target="_self">其它</a>
+                                    <span class="arrb"></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="comment_li_outbox">
+            <div id="comment_list"></div>
+        </div>
+
+        <div class="more_comment">
+            <div id="comment_bar" class="trackgin-ad" data-mod="popu_385"></div>
+        </div>
+
+        <h3 class="recommend_tit">相关文章推荐</h3>
+        <div class="recommend_list clearfix">
+            
+            <dl class="clearfix csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+                <dd>
+                    <h2><a href="/hello_hwc/article/details/51612139"  target="_blank" strategy="BlogCommendFromBaidu_0">React Native开发之IDE（Atom+Nuclide）安装，运行，调试</a></h2>
+                    <div class="summary">
+                        欢迎Follow我的Github，博客会同步在Github的Blog仓库更新。也可以关注CSDN博客的React Native分类
+LeoMobileDeveloper
+前言
+  工欲善其事，必先利...
+                    </div>
+                    <ul>
+                        <li class="avatar_img"><a href="http://blog.csdn.net/Hello_Hwc" target="_blank" strategy="BlogCommendFromBaidu_0"><img src="http://avatar.csdn.net/C/3/C/2_hello_hwc.jpg" alt="Hello_Hwc" title="Hello_Hwc"></a></li>
+                        <li class="user_name"><a href="http://blog.csdn.net/Hello_Hwc">Hello_Hwc</a></li>
+                        <li class="time">2016-06-08 13:32</li>
+                        <li class="visited_num"><i class="icon iconfont icon-read"></i><span>43651</span></li>
+                    </ul>
+                </dd>
+            </dl>
+            
+            <dl class="clearfix csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+                <dd>
+                    <h2><a href="/ruglcc/article/details/50175105"  target="_blank" strategy="BlogCommendFromBaidu_1">xcode 也有atom 装逼插件activate-power-mode</a></h2>
+                    <div class="summary">
+                        引言
+上一篇 &#160;&#160;装逼文本编辑器Atom
+ + activate-power-mode插件&#160;后，博主也发现在xcode下也有这么一个插件。
+让我们在xcode下一起装逼吧~~
+xcode 下 ...
+                    </div>
+                    <ul>
+                        <li class="avatar_img"><a href="http://blog.csdn.net/ruglcc" target="_blank" strategy="BlogCommendFromBaidu_1"><img src="http://avatar.csdn.net/D/F/4/2_ruglcc.jpg" alt="ruglcc" title="ruglcc"></a></li>
+                        <li class="user_name"><a href="http://blog.csdn.net/ruglcc">ruglcc</a></li>
+                        <li class="time">2015-12-04 15:06</li>
+                        <li class="visited_num"><i class="icon iconfont icon-read"></i><span>6486</span></li>
+                    </ul>
+                </dd>
+            </dl>
+            
+            <!--dl class="clearfix csdn-tracking-statistics" data-mod="popu_393">
+                <dt><a href="http://edu.csdn.net/huiyiCourse/series_detail/64?utm_source=blog10" target="_blank"><img class="maxwidth" src="http://img.blog.csdn.net/20170928113144608" alt="" title=""></a></dt>
+                <dd>
+                    <div class="summary">
+                        <h2><a href='http://edu.csdn.net/topic/python1?utm_source=blog10' target='_blank'>伤心啊！年度热门编程语言排行榜出来了...</a></h2>  <div class="summary">近期，IEEE Spectrum 发布了第四届顶级编程语言交互排行榜。结合 10 个线上数据源的 12 个标准，对 48 种语言进行了排行！此外，七牛云许式伟曾说过Go语言会取代Java...气氛... </div> 
+                    </div>
+                </dd>
+            </dl-->
+	<script>
+		(function() {
+		    var s = "_" + Math.random().toString(36).slice(2);
+		    document.write('<div id="' + s + '"></div>');
+		    (window.slotbydup=window.slotbydup || []).push({
+			id: '4765209',
+			container: s,
+			size: '808,120',
+			display: 'inlay-fix'
+		    });
+		})();
+	</script>
+            
+            <dl class="clearfix csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+                <dd>
+                    <h2><a href="/chenbifeng/article/details/51496548"  target="_blank" strategy="BlogCommendFromBaidu_2">从零开始学React Native App开发</a></h2>
+                    <div class="summary">
+                        目录
+1. React Native简介
+&#160;&#160;&#160;&#160;&#160;1.1&#160;从何而来，背景介绍
+&#160; &#160;&#160; 1.2 为什么要使用React Native开发
+&#160; &#160; &#160;1.3 环境搭建
+&#160;...
+                    </div>
+                    <ul>
+                        <li class="avatar_img"><a href="http://blog.csdn.net/chenbifeng" target="_blank" strategy="BlogCommendFromBaidu_2"><img src="http://avatar.csdn.net/5/C/F/2_chenbifeng.jpg" alt="chenbifeng" title="chenbifeng"></a></li>
+                        <li class="user_name"><a href="http://blog.csdn.net/chenbifeng">chenbifeng</a></li>
+                        <li class="time">2016-05-25 11:22</li>
+                        <li class="visited_num"><i class="icon iconfont icon-read"></i><span>12802</span></li>
+                    </ul>
+                </dd>
+            </dl>
+            
+            <dl class="clearfix csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+                <dd>
+                    <h2><a href="/u014484863/article/details/51550115"  target="_blank" strategy="BlogCommendFromBaidu_3">React Native Mac OS X 开发环境搭建</a></h2>
+                    <div class="summary">
+                        React Native Mac OS X 开发环境搭建(一)前言FaceBook早期开源发布了React Native For iOS,在2015年9月15日也发布了React Native For...
+                    </div>
+                    <ul>
+                        <li class="avatar_img"><a href="http://blog.csdn.net/u014484863" target="_blank" strategy="BlogCommendFromBaidu_3"><img src="http://avatar.csdn.net/1/C/A/2_u014484863.jpg" alt="u014484863" title="u014484863"></a></li>
+                        <li class="user_name"><a href="http://blog.csdn.net/u014484863">u014484863</a></li>
+                        <li class="time">2016-05-31 23:15</li>
+                        <li class="visited_num"><i class="icon iconfont icon-read"></i><span>1365</span></li>
+                    </ul>
+                </dd>
+            </dl>
+            
+            <dl class="clearfix csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+                <dd>
+                    <h2><a href="/u014484863/article/details/51554428"  target="_blank" strategy="BlogCommendFromBaidu_4">React Native常用IDE推荐与安装配置</a></h2>
+                    <div class="summary">
+                        React Native常用IDE推荐与安装配置（一）前言 
+上一讲提到了React Native框架安装和运行,以及创建了一个项目并介绍这个项目结构。这样介绍项目项目结构其实极其不方便，这一节将介绍...
+                    </div>
+                    <ul>
+                        <li class="avatar_img"><a href="http://blog.csdn.net/u014484863" target="_blank" strategy="BlogCommendFromBaidu_4"><img src="http://avatar.csdn.net/1/C/A/2_u014484863.jpg" alt="u014484863" title="u014484863"></a></li>
+                        <li class="user_name"><a href="http://blog.csdn.net/u014484863">u014484863</a></li>
+                        <li class="time">2016-06-01 11:05</li>
+                        <li class="visited_num"><i class="icon iconfont icon-read"></i><span>17168</span></li>
+                    </ul>
+                </dd>
+            </dl>
+            
+            <dl class="clearfix csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+                <dd>
+                    <h2><a href="/u010494080/article/details/51229211"  target="_blank" strategy="BlogCommendFromBaidu_6">Atom编辑器入门到精通(五) Git支持</a></h2>
+                    <div class="summary">
+                        版本控制对于开发来说非常重要,Atom当然也提供了很好的支持,本文将介绍如何在Atom中集成使用Git和GitHub
+                    </div>
+                    <ul>
+                        <li class="avatar_img"><a href="http://blog.csdn.net/u010494080" target="_blank" strategy="BlogCommendFromBaidu_6"><img src="http://avatar.csdn.net/C/4/9/2_u010494080.jpg" alt="u010494080" title="u010494080"></a></li>
+                        <li class="user_name"><a href="http://blog.csdn.net/u010494080">u010494080</a></li>
+                        <li class="time">2016-04-23 23:58</li>
+                        <li class="visited_num"><i class="icon iconfont icon-read"></i><span>14688</span></li>
+                    </ul>
+                </dd>
+            </dl>
+            
+            <dl class="clearfix csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+                <dd>
+                    <h2><a href="/u010494080/article/details/50605654"  target="_blank" strategy="BlogCommendFromBaidu_7">Atom编辑器入门到精通(二) 插件的安装和管理</a></h2>
+                    <div class="summary">
+                        在本节中我们会学习如果安装和使用插件 
+插件是Atom中一个非常重要的组成部分,很多功能都是以插件形式存在的,比如上篇文章中提到的目录树窗口和设置窗口都是利用默认安装的插件来实现的
+                    </div>
+                    <ul>
+                        <li class="avatar_img"><a href="http://blog.csdn.net/u010494080" target="_blank" strategy="BlogCommendFromBaidu_7"><img src="http://avatar.csdn.net/C/4/9/2_u010494080.jpg" alt="u010494080" title="u010494080"></a></li>
+                        <li class="user_name"><a href="http://blog.csdn.net/u010494080">u010494080</a></li>
+                        <li class="time">2016-01-29 10:35</li>
+                        <li class="visited_num"><i class="icon iconfont icon-read"></i><span>21871</span></li>
+                    </ul>
+                </dd>
+            </dl>
+            
+            <dl class="clearfix csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+                <dd>
+                    <h2><a href="/baidu_16051437/article/details/51204772"  target="_blank" strategy="BlogCommendFromBaidu_8">mac osx 下 安装atom github官方出品的开发工具</a></h2>
+                    <div class="summary">
+                        MAC OSX 下安装官方GITHUB地址国内镜像下载更快下载安装好 开始配置包管理器apm使用apm install --check检测安装源是否正常Checking for native buil...
+                    </div>
+                    <ul>
+                        <li class="avatar_img"><a href="http://blog.csdn.net/baidu_16051437" target="_blank" strategy="BlogCommendFromBaidu_8"><img src="http://avatar.csdn.net/F/4/A/2_baidu_16051437.jpg" alt="baidu_16051437" title="baidu_16051437"></a></li>
+                        <li class="user_name"><a href="http://blog.csdn.net/baidu_16051437">baidu_16051437</a></li>
+                        <li class="time">2016-04-20 23:01</li>
+                        <li class="visited_num"><i class="icon iconfont icon-read"></i><span>4589</span></li>
+                    </ul>
+                </dd>
+            </dl>
+            
+            <dl class="clearfix csdn-tracking-statistics" data-mod="popu_387" data-poputype="feed"  data-feed-show="false"  data-dsm="post">
+                <dd>
+                    <h2><a href="/ys743276112/article/details/38133995"  target="_blank" strategy="BlogCommendFromBaidu_9">Emmet for Dreamweaver：HTML/CSS代码快速编写神器</a></h2>
+                    <div class="summary">
+                        Emmet的前身是大名鼎鼎的Zen coding，如果你从事Web前端开发的话，对该插件一定不会陌生。它使用仿CSS选择器的语法来生成代码，大大提高了HTML/CSS代码编写的速度，比如下面的演示：
+...
+                    </div>
+                    <ul>
+                        <li class="avatar_img"><a href="http://blog.csdn.net/ys743276112" target="_blank" strategy="BlogCommendFromBaidu_9"><img src="http://avatar.csdn.net/8/3/1/2_ys743276112.jpg" alt="ys743276112" title="ys743276112"></a></li>
+                        <li class="user_name"><a href="http://blog.csdn.net/ys743276112">ys743276112</a></li>
+                        <li class="time">2014-07-26 00:17</li>
+                        <li class="visited_num"><i class="icon iconfont icon-read"></i><span>9679</span></li>
+                    </ul>
+                </dd>
+            </dl>
+            
+
+	   
+
+            
+
+            
+        </div>
+    </main>
+    <aside>
+        <div class="right_box user_info">
+            <dl class="inf_bar clearfix">
+                <dt class="csdn-tracking-statistics" data-mod="popu_381">
+                    <a href="http://blog.csdn.net/xiangzhihong8" target="_blank">
+                        <img src="http://avatar.csdn.net/E/D/2/1_xiangzhihong8.jpg" class="avatar_pic">
+                    </a>
+                    <span class="medals" title="">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-bokezhuanjia"></use>
+                </svg>
+              </span>
+                </dt>
+                <dd>
+                    <h3 class="csdn-tracking-statistics"  data-mod="popu_380"><a href="http://blog.csdn.net/xiangzhihong8" target="_blank" id="uid">xiangzhihong8</a></h3>
+                    <span  class="csdn-tracking-statistics" data-mod="popu_379"><a class="btn btn-redborder-small "  id="span_add_follow" target="_self">＋关注</a></span>
+                </dd>
+            </dl>
+            <div class="inf_number_box clearfix">
+                <dl>
+                    <dt>原创</dt>
+                    <dd>725</dd>
+                </dl>
+                <dl>
+                    <dt>粉丝</dt>
+                    <dd id='fan'>1417</dd>
+                </dl>
+                <dl>
+                    <dt>喜欢</dt>
+                    <dd>0</dd>
+                </dl>
+								 <dl>
+              <dt>码云</dt>
+              <dd>&nbsp;</dd>
+            </dl>
+
+            </div>
+	    <div class="writings">
+              <div class="public_signal clearfix">
+                <h3>他的最新文章</h3>
+                <a href="http://blog.csdn.net/xiangzhihong8" target="_blank" class="more_z"><span>更多文章</span></a>
+              </div>
+                <ul class="inf_list clearfix csdn-tracking-statistics" data-mod="popu_382">
+                    
+                    <li class="clearfix">
+                      
+                        <a href="/xiangzhihong8/article/details/78455515" target="_blank">一个ClassLoader引起的JNI链接错误</a>
+                    </li>
+                    
+                    <li class="clearfix">
+                      
+                        <a href="/xiangzhihong8/article/details/78441626" target="_blank">腾讯前端面试题集锦</a>
+                    </li>
+                    
+                    <li class="clearfix">
+                      
+                        <a href="/xiangzhihong8/article/details/78423983" target="_blank">mac环境下mongodb的安装和使用</a>
+                    </li>
+                    
+                    <li class="clearfix">
+                      
+                        <a href="/xiangzhihong8/article/details/78418226" target="_blank">HTTPS加密协议详解</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="extension_other csdn-tracking-statistics" data-mod="popu_389">
+						<!--u3032528-->
+			<div class="flashrecommend">
+
+<!-- 请置于所有广告位代码之前 -->
+<script src="http://dup.baidustatic.com/js/dm.js"></script>
+           
+<!-- 广告位：PC端-博客详情页右侧视窗1（feed流）-300*250 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '4770930',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+
+		    </div>
+        </div>
+
+		<div class="host-column">
+          <h3>博主专栏</h3>
+          <ul class="column-list csdn-tracking-statistics" data-mod="popu_520" >
+
+            <li class="clearfix">
+              <div class="img list-left">
+                <a href="http://blog.csdn.net/column/details/13695.html">
+                  <img src="http://img.blog.csdn.net/20161125211524891" alt="">
+                  <div>12</div>
+                </a>
+              </div>
+              <div class="content list-left">
+                <h4 class="title"><a href="http://blog.csdn.net/column/details/13695.html">大数据</a></h4>
+                <div class="read list-left"><i class="icon iconfont icon-read"></i><span>77661</span></div>
+              </div>
+            </li>
+
+            <li class="clearfix">
+              <div class="img list-left">
+                <a href="http://blog.csdn.net/column/details/13460.html">
+                  <img src="http://img.blog.csdn.net/20161107200646656" alt="">
+                  <div>28</div>
+                </a>
+              </div>
+              <div class="content list-left">
+                <h4 class="title"><a href="http://blog.csdn.net/column/details/13460.html">ios开发大揭秘</a></h4>
+                <div class="read list-left"><i class="icon iconfont icon-read"></i><span>55278</span></div>
+              </div>
+            </li>
+
+            <li class="clearfix">
+              <div class="img list-left">
+                <a href="http://blog.csdn.net/column/details/13180.html">
+                  <img src="http://img.blog.csdn.net/20161013090412178" alt="">
+                  <div>30</div>
+                </a>
+              </div>
+              <div class="content list-left">
+                <h4 class="title"><a href="http://blog.csdn.net/column/details/13180.html">前端</a></h4>
+                <div class="read list-left"><i class="icon iconfont icon-read"></i><span>116384</span></div>
+              </div>
+            </li>
+
+            <li class="clearfix">
+              <div class="img list-left">
+                <a href="http://blog.csdn.net/column/details/framwork.html">
+                  <img src="http://img.blog.csdn.net/20160724093143731" alt="">
+                  <div>31</div>
+                </a>
+              </div>
+              <div class="content list-left">
+                <h4 class="title"><a href="http://blog.csdn.net/column/details/framwork.html">深入Android Framwork</a></h4>
+                <div class="read list-left"><i class="icon iconfont icon-read"></i><span>103684</span></div>
+              </div>
+            </li>
+
+            <li class="clearfix">
+              <div class="img list-left">
+                <a href="http://blog.csdn.net/column/details/reactnative-android.html">
+                  <img src="http://img.blog.csdn.net/20160724094135635" alt="">
+                  <div>86</div>
+                </a>
+              </div>
+              <div class="content list-left">
+                <h4 class="title"><a href="http://blog.csdn.net/column/details/reactnative-android.html">React Native</a></h4>
+                <div class="read list-left"><i class="icon iconfont icon-read"></i><span>280006</span></div>
+              </div>
+            </li>
+
+            <li class="clearfix">
+              <div class="img list-left">
+                <a href="http://blog.csdn.net/column/details/design-mode.html">
+                  <img src="http://img.blog.csdn.net/20160614090418838" alt="">
+                  <div>25</div>
+                </a>
+              </div>
+              <div class="content list-left">
+                <h4 class="title"><a href="http://blog.csdn.net/column/details/design-mode.html">设计模式</a></h4>
+                <div class="read list-left"><i class="icon iconfont icon-read"></i><span>36165</span></div>
+              </div>
+            </li>
+
+            <li class="clearfix">
+              <div class="img list-left">
+                <a href="http://blog.csdn.net/column/details/java88.html">
+                  <img src="http://img.blog.csdn.net/20160605192107879" alt="">
+                  <div>24</div>
+                </a>
+              </div>
+              <div class="content list-left">
+                <h4 class="title"><a href="http://blog.csdn.net/column/details/java88.html">开发语言系列</a></h4>
+                <div class="read list-left"><i class="icon iconfont icon-read"></i><span>51538</span></div>
+              </div>
+            </li>
+
+            <li class="clearfix">
+              <div class="img list-left">
+                <a href="http://blog.csdn.net/column/details/myelicpse.html">
+                  <img src="http://img.blog.csdn.net/20170929103257931" alt="">
+                  <div>14</div>
+                </a>
+              </div>
+              <div class="content list-left">
+                <h4 class="title"><a href="http://blog.csdn.net/column/details/myelicpse.html">Weex和Vue</a></h4>
+                <div class="read list-left"><i class="icon iconfont icon-read"></i><span>44121</span></div>
+              </div>
+            </li>
+
+            <li class="clearfix">
+              <div class="img list-left">
+                <a href="http://blog.csdn.net/column/details/algorithm-struct.html">
+                  <img src="http://img.blog.csdn.net/20160531115534529" alt="">
+                  <div>22</div>
+                </a>
+              </div>
+              <div class="content list-left">
+                <h4 class="title"><a href="http://blog.csdn.net/column/details/algorithm-struct.html">数据结构与算法</a></h4>
+                <div class="read list-left"><i class="icon iconfont icon-read"></i><span>73955</span></div>
+              </div>
+            </li>
+
+            <li class="clearfix">
+              <div class="img list-left">
+                <a href="http://blog.csdn.net/column/details/laoshiji.html">
+                  <img src="http://img.blog.csdn.net/20160531112801863" alt="">
+                  <div>100</div>
+                </a>
+              </div>
+              <div class="content list-left">
+                <h4 class="title"><a href="http://blog.csdn.net/column/details/laoshiji.html">android开发大揭秘</a></h4>
+                <div class="read list-left"><i class="icon iconfont icon-read"></i><span>270751</span></div>
+              </div>
+            </li>
+
+          </ul>
+          <div class="unfold-btn">
+            <span>展开</span><i class="icon iconfont icon-xiajiantou"></i>
+          </div>
+        </div>
+		
+        
+        <div class="fixRight">
+            <div class="right_box padb0 csdn-tracking-statistics" data-mod="popu_391">
+                <h3 class="tit"><span><em>在线课程</em></span></h3>
+                <ul class="edu_li clearfix">
+                  
+                  <li>
+                    <div>
+                      <a href="http://edu.csdn.net/huiyiCourse/detail/596?utm_source=blog7" target="_blank">
+                        <img src="http://img.bss.csdn.net/201711061712351663.png" alt="免费直播 神经网络的原理及结构设计" title="免费直播 神经网络的原理及结构设计">
+                      </a>
+                    </div>
+                    <div>
+                      <p><a href="http://edu.csdn.net/huiyiCourse/detail/596?utm_source=blog7" target="_blank">免费直播 神经网络的原理及结构设计</a></p>
+                      <p>讲师：何宇健</p>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div>
+                      <a href="http://edu.csdn.net/huiyiCourse/detail/602?utm_source=blog7" target="_blank">
+                        <img src="http://img.bss.csdn.net/201711061707038235.png" alt="Apache Weex：移动研发的进阶之路" title="Apache Weex：移动研发的进阶之路">
+                      </a>
+                    </div>
+                    <div>
+                      <p><a href="http://edu.csdn.net/huiyiCourse/detail/602?utm_source=blog7" target="_blank">Apache Weex：移动研发的进阶之路</a></p>
+                      <p>讲师：董岩</p>
+                    </div>
+                  </li>
+                  
+                </ul>
+            </div>
+			<!--u3032529-->
+            <!-- <div class="extension_other csdn-tracking-statistics baidu_box" data-mod="popu_395">
+								
+                <script type="text/javascript" src="http://mpb1.iteye.com/cxpdpmumfaedgm.js"></script>
+            </div> -->
+			<div class="extension_other csdn-tracking-statistics bottomRcom" data-mod="popu_389" style="position:absolute;z-index:-5;opacity:0;pointer-events:none">
+						<!--u3032528-->
+				<div class="flashrecommend">
+				<script type="text/javascript" src="http://mpb1.iteye.com/bwocoltlyzdec.js"></script>
+				</div>
+			</div>
+        </div>
+		<div class="user-hotArticle">
+          <h3>热门文章</h3>
+          <ul class="hotArticle-list csdn-tracking-statistics" data-mod="popu_521">
+ 
+            <li>
+              <a href="/xiangzhihong8/article/details/53312278">“区块链”究竟是什么鬼</a>
+              <div class="read list-left"><i class="icon iconfont icon-read"></i><span>20090</span></div>
+            </li>
+ 
+            <li>
+              <a href="/xiangzhihong8/article/details/52623852">React Native运行原理解析</a>
+              <div class="read list-left"><i class="icon iconfont icon-read"></i><span>18204</span></div>
+            </li>
+ 
+            <li>
+              <a href="/xiangzhihong8/article/details/54098508">android 仿音悦台页面交互效果</a>
+              <div class="read list-left"><i class="icon iconfont icon-read"></i><span>17921</span></div>
+            </li>
+ 
+            <li>
+              <a href="/xiangzhihong8/article/details/52098015">在Windows下搭建Gitlab服务器</a>
+              <div class="read list-left"><i class="icon iconfont icon-read"></i><span>15791</span></div>
+            </li>
+ 
+            <li>
+              <a href="/xiangzhihong8/article/details/52224527">WebStorm开发工具设置React Native智能提示</a>
+              <div class="read list-left"><i class="icon iconfont icon-read"></i><span>15703</span></div>
+            </li>
+ 
+          </ul>
+        </div>
+
+
+    </aside>
+</div>
+
+<div class="left_fixed">
+      <div class="left_show_button">
+        <span>
+          <i class="icon iconfont icon-youjiantou"></i>
+        </span>
+      </div>
+    <ul class="left_menu">
+
+        <li>
+            <button class="left-fixed-btn btn-like csdn-tracking-statistics" data-mod="popu_373" target="_self">
+                <span class="iconbox border_red"><i class="icon iconfont icon-dianzan"></i></span>
+				<span class="txt">1</span>
+            </button>
+        </li>
+		<li id="blog_artical_directory">
+            <button class="left-fixed-btn left_menu_btn csdn-tracking-statistics" data-mod="popu_372" target="_self">
+                <span class="iconbox border_black"><i class="icon iconfont icon-mulu"></i></span>
+            </button>
+        </li>
+        <li class="menu_con">
+            <div class="list_father">
+                <div class="arr_box">
+                    <button class="btn-noborder arr-btn scroll-down  left_scroll_down"><i class="icon iconfont icon-xiajiantou"></i></button>
+                    <button class="btn-noborder arr-btn scroll-up left_scroll_top"><i class="icon iconfont icon-shangjiantou"></i></button>
+                </div>
+                <div class="arr"></div>
+                <div id="csdnBlogDir"></div>
+            </div>
+        </li>
+        <li>
+            <button class="left-fixed-btn csdn-tracking-statistics" data-mod="popu_374"  id="com-quick-collect" target="_self">
+                <span class="iconbox border_purple"><i class="icon iconfont icon-shoucang"></i></span>
+    
+            </button>
+        </li>
+		<li>
+          <button class="left-fixed-btn btn-pinglun" >
+            <span class="iconbox border_purple"><i class="icon iconfont icon-pinglun"></i></span>
+          </button>
+        </li>
+        <li id="share_box">
+            <button class="left-fixed-btn  csdn-tracking-statistics"  data-mod="popu_375" target="_self">
+                <span class="iconbox border_orange"><i class="icon iconfont icon-fenxiang"></i></span>
+            </button>
+            <div class="bdsharebuttonbox csdn-tracking-statistics" data-mod="popu_172">
+                <div class="outside">
+                    <span class="iconbox border_red2"><i class="icon iconfont icon-xinlang"></i></span>
+                    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"> </a>
+                </div>
+                <div class="outside">
+                    <span class="iconbox border_green"><i class="icon iconfont icon-weixin"></i></span>
+                    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"> </a>
+                </div>
+                <div class="outside">
+                    <span class="iconbox border_blue"><i class="icon iconfont icon-QQ"></i></span>
+                    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"> </a>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="right_fixed">
+  <div class="r_ico">
+	<i class="icon iconfont icon-jubao"></i>
+	<span class="txt" id="reportBtn">内容举报</span>
+  </div>
+  <div class="returnTop">
+   <i class="icon iconfont icon-fanhuidingbu"></i>
+   <span>返回顶部</span>
+ </div>
+</div>
+<div id="pop_win"></div>
+<div id="popup_mask"></div>
+<div class="pop_CA_cover" ></div>
+<div class="pop pop_CA" >
+    <div class="CA_header">
+        收藏助手
+        <span class="cancel_icon"  id="fapancle" ></span>
+    </div>
+    <iframe src="" id="collectIframe" frameborder="0" width="100%" height="360"  scrolling="no" ></iframe>
+</div>
+<!--举报-->
+<div id="report_dialog" style="top: 250px; left: 343.5px;"><div id="panel_report">
+    <div class="panel_head">不良信息举报</div>
+    <form method="post" id="frmReport" class="panel_body">
+        <table border="0" cellpadding="0" cellspacing="4" class="pop_table">
+            <tbody><tr><td colspan="2">您举报文章：<a href="http://blog.csdn.net/raintungli/article/details/76583070" target="_blank">深度学习：神经网络中的前向传播和反向传播算法推导</a></td></tr>
+            <tr>
+                <th style="width:60px;">举报原因：</th>
+                <td id="panel_reporttype">
+                    <label><input type="radio" class="report_type" id="report_sex" name="report_type" value="1">色情</label>
+                    <label><input type="radio" class="report_type" id="report_Politics" name="report_type" value="2">政治</label>
+                    <label><input type="radio" class="report_type" id="report_copy" name="report_type" value="3">抄袭</label>
+                    <label><input type="radio" class="report_type" id="report_ad" name="report_type" value="4">广告</label>
+                    <label><input type="radio" class="report_type" id="report_want" name="report_type" value="5">招聘</label>
+                    <label><input type="radio" class="report_type" id="report_call" name="report_type" value="6">骂人</label>
+                    <br>
+                    <label><input type="radio" class="report_type" id="report_other" name="report_type" value="7">其他</label>
+                    <input type="text" name="report_other_content" id="report_other_content" maxlength="30" style="display: none;">
+                </td>
+            </tr>
+            <tr id="panel_originalurl" style="display: none;">
+                <th>原文地址：</th>
+                <td>
+                    <input id="originalurl" value="http://" name="originalurl" type="text" style="width: 90%;">
+                </td>
+            </tr>
+            <tr>
+                <th id="sp_reason">原因补充：</th>
+                <td>
+                    <textarea id="report_description" style="width: 300px;" rows="3" name="report_description"></textarea>
+                    <p id="sp_n" style="color:#999;margin:0px;padding:0px;">(最多只允许输入30个字)</p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input id="btnSubmitReport" name="submit" type="image" align="middle" class="btn_1" src="http://static.blog.csdn.net/images/btn_submit.jpg">
+                    <span style="padding-left:20px;"></span>
+                    <img id="btnCloseReportDialog" src="http://static.blog.csdn.net/images/btn_cancel.jpg" align="middle">
+                    <div id="error" style="color: Red">
+                    </div>
+                </td>
+            </tr>
+            </tbody></table>
+    </form>
+</div>
+    <script language="javascript" type="text/javascript">
+        var isComment=0;
+        //显示隐藏地址
+        $(function () {
+            if(isComment){
+                $("#report_description").attr("disabled",true);
+                $("#sp_n").hide();
+                $("#sp_reason").html("评论内容：");
+            }
+            $(".report_type").click(function () {
+                $("#panel_originalurl,#report_other_content").hide();
+                switch ($(this).val()) {
+                    case '3':
+                        $("#panel_originalurl").show();
+                        $("#originalurl").focus();
+                        break;
+                    case '7':
+                        if(isComment){
+                            $("#report_other_content").show().focus();
+                        }
+                        break;
+                }
+
+            });
+
+            $("#frmReport").submit(function () {
+                if (!currentUserName) {
+
+                    if (confirm("您的操作必须登录，是否登录？")) {
+                        location.href = "http://passport.csdn.net/account/login?from=" + encodeURIComponent(location.href);
+                        return false;
+                    }
+                    return false;
+                }
+
+                var reportType = $("input[name=report_type]:checked").val();
+                if(!reportType){
+                    alert("请选择举报原因！");
+                    return false;
+                }
+                var otherInfo = "";
+                switch (reportType) {
+                    case '3':
+                        otherInfo = $("#originalurl").val();
+                        if (otherInfo == ""||otherInfo=="http://") {
+                            alert("举报抄袭必须提供原创文章地址！");
+                            $("#originalurl").focus();
+                            return false;
+                        } else if(!checkeURL(otherInfo)) {
+                            alert("请输入正确的原创文章地址！");
+                            $("#originalurl").focus();
+                            return false;
+                        }
+                        break;
+                    case '7':
+                        otherInfo = $("#report_other_content").val();
+                        if (isComment && !otherInfo) {
+                            alert("请填写举报的具体原因！");
+                            $("#report_other_content").focus();
+                            return false;
+                        }
+                        if(!isComment){
+                            if(!$("#report_description").val()){
+                                alert("请填写举报的具体原因！");
+                                $("#report_description").focus();
+                                return false;
+                            }
+                        }
+                        break;
+                }
+                if(!isComment){
+                    if($("#report_description").val().length>30){
+                        alert("举报原因最多只允许输入30个字！");
+                        return false;
+                    }
+                }
+                nowTime = {
+                  year: new Date().getFullYear(),
+                  month: parseInt(new Date().getMonth())+1,
+                  day: new Date().getDate(),
+                  hours: parseInt(new Date().getHours()),
+                  minutes: parseInt(new Date().getMinutes()),
+                  seconds: parseInt(new Date().getSeconds())
+                }
+                var data = {
+                    articleId: fileName,
+                    commentId: 0,
+                    reportType: reportType,
+                    originalurl: $("#originalurl").val(),
+                    report_other_content: $("#report_other_content").val(),
+                    report_description: $("#report_description").val(),
+                    currentUserName: currentUserName,
+                    updatetime: nowTime.year+'/'+nowTime.month+'/'+nowTime.day+' '+ nowTime.hours+':'+nowTime.minutes+':'+seconds,
+                    blogUser: username
+                };
+                if(!isComment){//如果是举报文章
+                    data.report_other_content = data.report_description;
+                    // data.report_description = "1. 神经网络这是一个常见的神经网络的图：这是一个常见的三层神经网络的基本构成，Layer L1是输入层，Layer L2是隐含层";
+                }
+
+                $.post(blog_address + "/common/report?id="+fileName+"&t=2", data, function (data) {
+                    if (data.result == 1){
+                        SetError("感谢您的举报，我们会尽快审核！");
+                    }else{
+                        if (data.content) alert(data.content);
+                    }
+
+                });
+                return false;
+            });
+
+            $("#btnCloseReportDialog").click(function () {
+                CloseDiv();
+            });
+
+        });
+
+        //提示后关闭方法
+        function SetError(error) {
+            $("#btnCloseReportDialog").trigger("click");
+            alert(error);
+            CloseDiv();
+        }
+
+        //关闭方法
+        function CloseDiv() {
+
+            $.removeMask();
+            $("#report_dialog").hide();
+            return false;
+        }
+
+        //验证url
+        function checkeURL(url){
+            return /^http(s)?:\/\/([\w-]+\.)+[\w-]+/i.test(url);
+        }
+
+    </script>
+</div>
+
+<script src="http://c.csdnimg.cn/public/common/libs/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://static.blog.csdn.net/public/res/bower-libs/MathJax/MathJax.js?config=TeX-AMS_HTML"></script>
+<script type="text/javascript" src="http://passport.csdn.net/content/loginbox/login.js"></script>
+
+<script type="text/javascript" src="http://static.blog.csdn.net/Skin/skin3-template/js/blog_ver.js?v=2017.042"></script>
+<script type="text/javascript" src="http://static.blog.csdn.net/Skin/skin3-template/js/skin2017.js?v=2017.042"></script>
+<script type="text/javascript" src="http://static.blog.csdn.net/scripts/cnick.js"></script>
+<script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "1", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+<script type="text/javascript" >
+    if($(".article_collect li").length==1){$(".article_collect").hide();}
+    if($(".article_tags li").length==1){$(".article_tags").hide();}
+    $(".edit a").attr("href","http://write.blog.csdn.net/postedit/"+fileName);
+    $.each($(".edu_li a"),function(){$(this).attr("href",$(this).attr("href").replace("blog7","blog9"))});
+    new CNick('#uid').showNickname();
+if($("#fan").html()=="")
+{
+$("#fan").html(0);	
+}
+
+	var blogCustomType ='{customtype}';
+                
+        $("#custom"+blogCustomType).show();
+</script>
+</body>
+
+<script  type="text/javascript">
+    var fromjs=$("#fromjs");
+    if(fromjs.length>0)
+    {                  
+        $("#fromjs .markdown_views pre").addClass("prettyprint");       
+        prettyPrint();
+
+        $('pre.prettyprint code').each(function () {
+            var lines = $(this).text().split('\n').length;
+            var $numbering = $('<ul/>').addClass('pre-numbering').hide();
+            $(this).addClass('has-numbering').parent().append($numbering);
+            for (i = 1; i <= lines; i++) {
+                $numbering.append($('<li/>').text(i));
+            };
+            $numbering.fadeIn(1700);
+        });
+
+        $('.pre-numbering li').css("color","#999");             
+    }
+
+    $(function(){
+        setTimeout(function(){
+            $(".math").each(function(index,value){$(this).find("span").last().css("color","#fff"); })
+        },500);         
+       
+
+    });
+
+    setTimeout(function () {
+        $(".toc a[target='_blank']").attr("target", "");
+    }, 500);
+
+</script>
+</html>
+
