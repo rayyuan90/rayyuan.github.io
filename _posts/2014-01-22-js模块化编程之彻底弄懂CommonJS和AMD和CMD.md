@@ -6,9 +6,6 @@
 <!--done-->
 <div id="topics">
 	<div class = "post">
-		<h1 class = "postTitle">
-			<a id="cb_post_title_url" class="postTitle2" href="http://www.cnblogs.com/chenguangliang/p/5856701.html">js模块化编程之彻底弄懂CommonJS和AMD/CMD！</a>
-		</h1>
 		<div class="clear"></div>
 		<div class="postBody">
 			<div id="cnblogs_post_body"><p><span style="font-family: 'Microsoft YaHei';"><span style="font-size: 16px; line-height: 24px;">先回答我：为什么模块很重要？</span></span></p>
