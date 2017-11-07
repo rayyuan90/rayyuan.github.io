@@ -400,6 +400,4 @@ ReactDOM.render(&lt;HelloMessage name="John" /&gt;, mountNode);
 
 
 
-</body>
-</html>
 
