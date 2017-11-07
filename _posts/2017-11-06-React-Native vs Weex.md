@@ -3,9 +3,6 @@
 <body>
     <div class="yq-main">
     <div class="yq-main-left yq-blog-detail" data-spm="blogcont57996">
-        <h1 class="blog-title">
-            weex vs react-native
-</h1>
 
 <p class="blog-summary">
     <em>摘要：</em>
