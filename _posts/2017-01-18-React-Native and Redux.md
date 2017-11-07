@@ -1,11 +1,5 @@
 <div class="container">
 
-<div class="header">
-
-# [marconijr](https://marconijr.com/)
-
-</div>
-
 <div class="content">
 
 <div class="posts">
