@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-### WHAT I KNOW
+### What I Know
 
 Primiry good at Angular.js jQuery Framework, HTML, CSS, Sass. with strong foundation and knowledge about base JavaScript. Has write many prototype JavaScript to suit for different Web Browser.
 
@@ -15,7 +15,7 @@ user experience and data safty.
 
 Good with WebPack Publishing Tool.
 
-### WHO I AM
+### Who I Am
 
 Self-motivated, self-taught quick learner. That's how i defined myself.
 
@@ -28,7 +28,7 @@ Being a programmer and think like a programmer.Take responsibility for your code
 i love front-end and being a Full-Stack Web Developer.
 
 
-### Contact me
+### Contact Me
 
 Email: [rayyuan90@qq.com](mailto:rayyuan90@qq.com)
 
