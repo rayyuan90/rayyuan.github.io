@@ -2,17 +2,7 @@
 
 <div class="header">
 
-# [./marconijr](https://marconijr.com/)
-
-Python, Golang, <strike>Javascript</strike>/Elm, ...
-
-<div class="nav">[<span class="ci ci-burger"></span>](#)
-
-*   ∾
-*   [Github](https://github.com/marconi)
-*   [Slides](https://speakerdeck.com/marconi)
-
-</div>
+# [marconijr](https://marconijr.com/)
 
 </div>
 
@@ -903,5 +893,3 @@ And that’s pretty much it, as always you can checkout the final source code [h
 </div>
 
 </div>
-
-<script type="text/javascript">var currentUri = "/post/react-native-and-redux/"; window.onload = function() { mixpanel.track('Page visited'); };</script>
