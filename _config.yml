@@ -2,6 +2,7 @@
 # This file contains configuration flags to customize your site
 #
 
+
 # Name of your site (displayed in the header)
 name: Ray
 
@@ -14,6 +15,7 @@ avatar: https://camo.githubusercontent.com/6f1e9bd4ebd02f42ff14f7960b783a647d345
 #
 # Flags below are optional
 #
+
 
 # Includes an icon in the footer for each username you enter
 footer-links:
