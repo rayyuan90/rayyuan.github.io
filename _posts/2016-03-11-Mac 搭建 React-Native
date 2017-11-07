@@ -1,14 +1,8 @@
-<div class="container clearfix">
 
-<main>
-
-<article>
 
 # Mac搭建 React Native 工具篇Atom＋Nuclide
 
-<div class="article_bar clearfix">
 
-<div class="artical_tag"><span class="original">原创</span> <span class="time">2017年03月15日 22:43:07</span></div>
 
 *   标签：
 *   [atom](http://so.csdn.net/so/search/s.do?q=atom&t=blog) <span>/</span>
@@ -19,11 +13,8 @@
 *   <a class="btn-noborder" href=""><span class="txt">编辑</span></a>
 *   <a class="btn-noborder" onclick="javascript:deleteArticle(fileName);return false;"><span class="txt">删除</span></a>
 
-</div>
 
-<div id="article_content" class="article_content csdn-tracking-statistics" data-mod="popu_519" data-dsm="post">
 
-<div class="markdown_views">
 
 关于如何在mac下搭建React环境这里就不详细介绍了，有兴趣的朋友可以看：[在Mac上搭建RN基础环境](http://blog.csdn.net/xiangzhihong8/article/details/53914336)，今天要说的是如何在mac下使用Atom＋Nuclide组合环境来开发项目。
 
