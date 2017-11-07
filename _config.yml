@@ -2,12 +2,11 @@
 # This file contains configuration flags to customize your site
 #
 
-
 # Name of your site (displayed in the header)
 name: Ray
 
 # Short bio or description (displayed in the header)
-description: Full Stack Web Developer
+description: Full-Stack Web Developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://camo.githubusercontent.com/6f1e9bd4ebd02f42ff14f7960b783a647d3458be/687474703a2f2f6f63746f6465782e6769746875622e636f6d2f696d616765732f73746f726d74726f6f706f6361742e6a7067
@@ -15,7 +14,6 @@ avatar: https://camo.githubusercontent.com/6f1e9bd4ebd02f42ff14f7960b783a647d345
 #
 # Flags below are optional
 #
-
 
 # Includes an icon in the footer for each username you enter
 footer-links:
