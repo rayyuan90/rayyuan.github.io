@@ -5,6 +5,7 @@
 5.flux and redux difference
 6.javascript suit for browsers
 
+***
 
 props and state in react :
 props translate from the parent component to the child component. it can not be changed.and you can traslate from the parent properties. like <container listdata={data}> list data is the props of the child component . props is one way data flow.
@@ -36,7 +37,7 @@ http/2 is much better than http/1
 
 
 
--------------------------------------
+***
 
 react native 
 
@@ -69,6 +70,8 @@ This method is called when a component is being removed from the DOM:
 
 what is single page application--- only one html like index.hmtl .  when route to another page we only send the data from backend to page and load page.without send html page is much faster.  
  BUT google search is not well served single page application. because page in SPAis mainly ajax data from bandend.and google search not well with crawl ajax or javascript.
+ 
+ ***
 
 nodejs 事件驱动型非阻塞i/o
 
