@@ -628,11 +628,11 @@ Then to make the transition between `Search` to `SearchResult`, we’re going to
               <Navigator
                 ref="navigator"
                 configureScene={(route) => Navigator.SceneConfigs.FloatFromLeft}
-                initialRoute={{
+                initialRoute={
                   id: 'result',
                   title: '${this.props.search.keyword}',
                   index: 0
-                }}
+                }
                 renderScene={this.renderScene.bind(this)}
                 navigationBar={
                   <Navigator.NavigationBar
@@ -794,11 +794,11 @@ We just check which route id is being requested and return components accordingl
               <Navigator
                 ref="navigator"
                 configureScene={(route) => Navigator.SceneConfigs.FloatFromLeft}
-                initialRoute={{
+                initialRoute={
                   id: 'result',
                   title: `'${this.props.search.keyword}'`,
                   index: 0
-                }}
+                }
                 renderScene={this.renderScene.bind(this)}
                 navigationBar={
                   <Navigator.NavigationBar
