@@ -859,4 +859,5 @@ If you run this and try searching, you should now see the list of results we got
 
 And that’s pretty much it, as always you can checkout the final source code [here](https://github.com/marconi/ExtPlaylist/tree/search-only). The nice thing about this is that you can also use Redux and apply what you learned here on your React webapps!
 
-</div>
+###  原文地址
+https://marconijr.com/post/react-native-and-redux/
