@@ -1,15 +1,3 @@
-<div class="container">
-
-<div class="content">
-
-<div class="posts">
-
-<div class="post">
-
-## [React Native and Redux](https://marconijr.com/post/react-native-and-redux/)
-
-<span class="post-date">Jan 3, 2016</span>
-
 <div class="post-content">
 
 I’ve been excited about [React](https://facebook.github.io/react/) ever since it came out but haven’t been able to blog about it. So naturally when [ReactNative](https://facebook.github.io/react-native/) was introduced [last year](https://code.facebook.com/posts/1014532261909640/react-native-bringing-modern-web-techniques-to-mobile/) I was super anxious to try it and even more when the [Android support](https://code.facebook.com/posts/1189117404435352/) was released.
@@ -875,15 +863,5 @@ And that’s pretty much it, as always you can checkout the final source code [h
 </div>
 
 <div class="pagination">[Prev](https://marconijr.com/post/ergodox-layout-for-osx/) [Next](https://marconijr.com/post/boltdb-api/)</div>
-
-</div>
-
-</div>
-
-<div class="footer">
-
-© 2015\. All rights reserved.
-
-</div>
 
 </div>
