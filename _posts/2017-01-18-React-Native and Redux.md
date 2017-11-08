@@ -1,5 +1,4 @@
-<div class="post-content">
-
+### Content
 I’ve been excited about [React](https://facebook.github.io/react/) ever since it came out but haven’t been able to blog about it. So naturally when [ReactNative](https://facebook.github.io/react-native/) was introduced [last year](https://code.facebook.com/posts/1014532261909640/react-native-bringing-modern-web-techniques-to-mobile/) I was super anxious to try it and even more when the [Android support](https://code.facebook.com/posts/1189117404435352/) was released.
 
 For a quick intro, ReactNative lets you write apps for both iOS and Android using the same set of knowledge you only need to learn once. So its a “learn once, write anywhere” approach. This is different from say [PhoneGap](https://cordova.apache.org/) where its “write once, deploy anywhere”. Wait a minute, isn’t that more productive if you only need to write once and deploy anywhere? Sure if you have a very basic app, with PhoneGap you’re actually running html+css+js in a `WebView`, technologies which werent intended to build mobile apps so its an elaborate hack to build apps. With ReactNative you write your components in [jsx](https://facebook.github.io/react/docs/jsx-in-depth.html) which gets translated into **native** components so you get the ease of writing components from familiar technologies coming from React with the performance of a native app.
@@ -9,6 +8,8 @@ Ok so what about [Redux](https://github.com/rackt/redux)? React encourages havin
 Think of it as having a root state which is just a json object with fields in it, each field gets passed to components which only need those data and whenever you want to update some data, you send out an action which gets processed by reducer and changes gets applied on that root state which in turn propagates the changes down to components. So you see it goes around in circle and that’s how it achieves the single directional data flow.
 
 In this post we’ll be writing the basic search functionality of an external Youtube playlist I started called [ExtPlaylist](https://github.com/marconi/ExtPlaylist). The idea is pretty simple, you just write playlist without having to signup for Youtube account. We do this by storing the playlist data externally using, wait for it… [BoltApi](https://github.com/marconi/boltapi) :). Although in this post we focus just on search, you can lookup the `master` branch for `ExtPlaylist` which already has playing of video and adding them to playlists. Also `ExtPlaylist` has a `search-only` branch where you can see a working example of what we’ll be writing.
+
+*** 
 
 We’ll be focusing just on iOS so make sure you have ReactNative [installed](https://facebook.github.io/react-native/docs/getting-started.html#content). First lets create the project:
 
@@ -857,11 +858,5 @@ If you run this and try searching, you should now see the list of results we got
 ![image](https://marconijr.com/images/extplaylist-result.png)
 
 And that’s pretty much it, as always you can checkout the final source code [here](https://github.com/marconi/ExtPlaylist/tree/search-only). The nice thing about this is that you can also use Redux and apply what you learned here on your React webapps!
-
-</div>
-
-</div>
-
-<div class="pagination">[Prev](https://marconijr.com/post/ergodox-layout-for-osx/) [Next](https://marconijr.com/post/boltdb-api/)</div>
 
 </div>
