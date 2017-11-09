@@ -1,15 +1,4 @@
 
-# 同构 JavaScript 应用 —— Web 世界的未来？
-
-<div class="PostIndex-author">[![范洪春](https://pic4.zhimg.com/50/v2-e95960200c6a9c3661f74abd07c0b5ff_xs.jpg)](https://www.zhihu.com/people/fanhc)[范洪春](https://www.zhihu.com/people/fanhc)<span class="Bull"></span>
-
-<div class="HoverTitle" data-hover-title="Wed, Mar 11, 2015 8:20 AM"><time datetime="Wed Mar 11 2015 08:20:35 GMT+0800 (CST)">3 years ago</time></div>
-
-</div>
-
-</div>
-
-<div class="RichText PostIndex-content av-paddingSide av-card">
 
 Web 世界有一个至理名言，就是 Java 提出的“Write once, run everywhere”。但这句话只适用于 Java 么？我们能否也用它来形容 JavaScript 呢？答案是 Yes。
 
