@@ -597,4 +597,3 @@ Redux 本身提供了 `bindActionCreators` 函数，来将 action 包装成直�
 >     *   [pure = true] (Boolean): If true, implements shouldComponentUpdate and shallowly compares the result of mergeProps, preventing unnecessary updates, assuming that the component is a “pure” component and does not rely on any input or state other than its props and the selected Redux store’s state. Defaults to true.
 >     *   [withRef = false] (Boolean): If true, stores a ref to the wrapped component instance and makes it available via getWrappedInstance() method. Defaults to false.
 
-</div>
