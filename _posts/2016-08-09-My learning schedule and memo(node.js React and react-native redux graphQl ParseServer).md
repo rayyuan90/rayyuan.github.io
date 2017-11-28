@@ -91,3 +91,6 @@ nodejs 事件驱动型非阻塞i/o
 数据类型可以被忽略的语言。它与强类型定义语言相反, 一个变量可以赋不同数据类型的值。强类型定义语言在速度上可能略逊色于弱类型定义语言，但是强类型定义语言带来的严谨性能够有效的避免
 
 IDE for react native . atom+nuclide  watchman (dynamic watch code and reload) flow (identify the  code like wrong type etc.)
+
+
+REST is the way HTTP should be used. and http protocal using tcp/ip transfer layer. (ftp etc also using tcp/ip)
