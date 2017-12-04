@@ -94,3 +94,7 @@ IDE for react native . atom+nuclide  watchman (dynamic watch code and reload) fl
 
 
 REST is the way HTTP should be used. and http protocal using tcp/ip transfer layer. (ftp etc also using tcp/ip)
+
+***
+
+relational database(mySql and postgreSQL) and non-relational database noSQL (mongoDB) realtional dabase save data in different table and connect with relation like prime-key ID. save id in one table and use the id to find detail. non-relational database save all the data in one document. when save in the two table save it twice. 
