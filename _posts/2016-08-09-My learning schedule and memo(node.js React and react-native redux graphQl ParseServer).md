@@ -104,3 +104,4 @@ redis database is store in memory.so the max storage is 1.5 GB. it query languag
 
 ---
  node debugging tools(need practice)
+ node.js with socket.io make real-time chat module. like imsessionwindow
