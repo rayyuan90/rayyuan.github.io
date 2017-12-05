@@ -98,4 +98,9 @@ REST is the way HTTP should be used. and http protocal using tcp/ip transfer lay
 ***
 
 relational database(mySql and postgreSQL) and non-relational database noSQL (mongoDB) realtional dabase save data in different table and connect with relation like prime-key ID. save id in one table and use the id to find detail. non-relational database save all the data in one document. when save in the two table save it twice. you can use lookup to query in mongoDB like JOIN in sql. MongoDB $lookup is useful and powerful, but even this basic example requires a complex aggregate query
----redis database is store in memory.so the max storage is 1.5 GB. it query language is total different. it offers many functions to query like lrem zadd average etc. can be use in calculation or statistic . like 评分，统计
+
+---
+redis database is store in memory.so the max storage is 1.5 GB. it query language is total different. it offers many functions to query like lrem zadd average etc. can be use in calculation or statistic . like 评分，统计
+
+---
+ node debugging tools(need practice)
