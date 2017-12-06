@@ -1,35 +1,12 @@
 
-<div class="note">[<span class="close">×</span>](/apps/download?utm_source=sbc)
-
-<div class="post">
-
-<div class="article">
 
 # 教你用 Web Speech API 和 Node.js 来创建一个简单的 AI 聊天机器人
 
-<div class="author">[![96](//upload.jianshu.io/users/upload_avatars/1908904/3c3f3326bb95.gif?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96)](/u/644fb0e0b9e1) 
-
-<div class="info"><span class="name">[极小光](/u/644fb0e0b9e1)</span> ![Verified account](//cdn2.jianshu.io/assets/badges/verified_account-6ea2051ef5e5f656a6a05abf073c6ab2cfe00258052f160aa2f2b86ff0a216c3.png "已认证的机构") 
-
-<div class="meta"><span class="publish-time">2017.08.24 09:57</span> <span class="wordage">字数 2147</span></div>
-
-</div>
-
-</div>
-
-<div data-note-content="" class="show-content">
-
-<div class="image-package">![](//upload-images.jianshu.io/upload_images/1908904-87ba7187d2971653.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
-</div>
 
 > 简评：使用语音命令在今天变得非常普遍，许多手机用户使用像 Siri 和 Cortana 这样的语音助手，我们的卧室也被亚马逊的 Echo 和 Google Home 这样的设备“入侵”了。这些系统都离不开语音识别软件，现在，我们的浏览器也友好支持了 Web Speech API，可以让用户在 Web 应用中集成语音功能。
 
 这篇文章将介绍如何使用 API 来在浏览器中创建人工智能语音聊天界面。这个应用会识别用户的声音，并且用一个合成的声音来回答用户。因为 Web Speech API 还处在试验阶段，这个应用只在[支持的浏览器](http://caniuse.com/#search=speech)上可用。这篇文章使用的语音识别和语音合成功能，目前仅在基于 Chromium 的浏览器上支持，包括 Chrome 25+ 和 Opera 27+，目前 Firefox，Edge 和 Safari 仅支持语音合成。
 
-<div class="image-package">![](//upload-images.jianshu.io/upload_images/1908904-502a7e4381cb425a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
-</div>
-
-[Chrome 上运行的 demo 视频链接](https://vimeo.com/215612852)，接下来我们就来完成这个 demo ！
 
 要完成这个 Web 应用，我们需要完成下面三个主要的步骤：
 
@@ -261,7 +238,8 @@ Web Speech API 有一个主要的控制接口，叫 [SpeechRecognition](https://
 *   [Lex](http://link.zhihu.com/?target=https%3A//aws.amazon.com/lex/), Amazon
 
 原文链接：[Building A Simple AI Chatbot With Web Speech API And Node.js](http://link.zhihu.com/?target=https%3A//www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js/)  
-推荐阅读：  
-[JavaScript 数组和对象就像书和报纸一样](https://zhuanlan.zhihu.com/p/26680556?refer=jiguang-daily)
 
-</div>
+http://cdn2.jianshu.io/p/bb163ae5a279
+
+
+
