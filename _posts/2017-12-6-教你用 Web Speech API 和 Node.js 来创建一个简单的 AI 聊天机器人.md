@@ -191,6 +191,7 @@ Web Speech API 有一个主要的控制接口，叫 [SpeechRecognition](https://
       });
     });
 
+
 当 [API.AI](https://api.ai/) 返回结果后，用 [Socket.IO](https://socket.io/) 的 _socket.emit()_方法发送到客户端。
 
 ### 用 SpeechSynthesis 接口让 AI 发出声音
@@ -218,6 +219,7 @@ Web Speech API 有一个主要的控制接口，叫 [SpeechRecognition](https://
 
 <div class="image-package">![](//upload-images.jianshu.io/upload_images/1908904-df1bb9d197aff38d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 </div>
+
 
 参考文章：
 
