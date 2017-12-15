@@ -105,3 +105,19 @@ redis database is store in memory.so the max storage is 1.5 GB. it query languag
 ---
  node debugging tools(need practice)
  node.js with socket.io make real-time chat module. like imsessionwindow
+ 
+ ---
+ less vs sass 
+ Variable Handling
+ LESS uses @, Sass uses $.
+ $color: black;           
+.scoped { 
+  $color: white;
+  color: $color;        
+}                        
+.unscoped {     
+  // LESS = black (global)
+  // Sass = white (overwritten by local)
+  color: $color;          
+}
+Less change the local viriable does not change the gloable one. but sass change the local and change the gloable
