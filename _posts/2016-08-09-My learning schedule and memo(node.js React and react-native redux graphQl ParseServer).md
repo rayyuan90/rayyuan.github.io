@@ -126,3 +126,8 @@ Less change the local viriable does not change the gloable one. but sass change 
 const mongoose = require('mongoose');
 mLab is a fully managed cloud database service that hosts MongoDB databases;
 Heroku is a cloud platform as a service (PaaS) supporting several programming languages that is used as a web application deployment model
+
+---
+ do not use map index as the key of each item:
+Let me explain, a key is the only thing React uses to identify DOM elements. What happens if you push an item to the list or remove something in the middle? If the key is same as before React assumes that the DOM element represents the same component as before. But that is no longer true.
+
