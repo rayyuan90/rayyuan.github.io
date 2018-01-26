@@ -165,3 +165,33 @@ define(function (requie, exports, module) {
 
 AMD的API默认是一个当多个用，CMD严格的区分推崇职责单一。例如：AMD里require分全局的和局部的。CMD里面没有全局的 require，提供 seajs.use()来实现模块系统的加载启动。CMD里每个API都简单纯粹。
 
+UMD
+UMD是AMD和CommonJS的糅合
+
+AMD模块以浏览器第一的原则发展，异步加载模块。
+CommonJS模块以服务器第一原则发展，选择同步加载，它的模块无需包装(unwrapped modules)。
+这迫使人们又想出另一个更通用的模式UMD （Universal Module Definition）。希望解决跨平台的解决方案。
+
+UMD先判断是否支持Node.js的模块（exports）是否存在，存在则使用Node.js模块模式。
+在判断是否支持AMD（define是否存在），存在则使用AMD方式加载模块。
+
+(function (window, factory) {
+    if (typeof exports === 'object') {
+     
+        module.exports = factory();
+    } else if (typeof define === 'function' && define.amd) {
+     
+        define(factory);
+    } else {
+     
+        window.eventUtil = factory();
+    }
+})(this, function () {
+    //module ...
+});
+
+作者：LomoTony
+链接：https://www.jianshu.com/p/bd4585b737d7
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
