@@ -198,3 +198,14 @@ UMD先判断是否支持Node.js的模块（exports）是否存在，存在则使
 ---
 在 Vuex 中，mutation 都是同步事务：
 
+---
+为了解决脚本文件下载阻塞网页渲染的问题，一个方法是加入defer属性。
+<script src="a.js" defer></script>
+<script src="b.js" defer></script>
+上面代码中，只有等到DOM加载完成后，才会执行a.js和b.js。
+
+解决“阻塞效应”的另一个方法是加入async属性。
+<script src="a.js" async></script>
+<script src="b.js" async></script>
+async属性的作用是，使用另一个进程下载脚本，下载时不会阻塞渲染。  
+
