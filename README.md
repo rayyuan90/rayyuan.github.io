@@ -1,2 +1,2 @@
 
-My own Blog Site. Tech Hub for  Front End Developer
+My own Blog Site. Tech Hub for  Web Developer. Experience collection.
