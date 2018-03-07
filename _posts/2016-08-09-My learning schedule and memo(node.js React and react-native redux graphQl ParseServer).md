@@ -209,3 +209,5 @@ UMD先判断是否支持Node.js的模块（exports）是否存在，存在则使
 <script src="b.js" async></script>
 async属性的作用是，使用另一个进程下载脚本，下载时不会阻塞渲染。  
 
+---
+xss preventing skill    form data validation 
