@@ -1,4 +1,4 @@
-6 Reasons Why JavaScript’s Async/Await Blows Promises Away (Tutorial)
+##6 Reasons Why JavaScript’s Async/Await Blows Promises Away (Tutorial)
 In case you missed it, Node now supports async/await out of the box since version 7.6. If you haven’t tried it yet, here are a bunch of reasons with examples why you should adopt it immediately and never look back.
 
 [UPDATE]: Node 8 LTS is out now with full Async/Await support.
@@ -28,11 +28,11 @@ The above point implies that we can’t use await in the top level of our code s
 
 3. await getJSON() means that the console.log call will wait until getJSON() promise resolves and print it value.
 
-Why Is It better?
-1. Concise and clean
+##Why Is It better?
+##1. Concise and clean
 Look at how much code we didn’t write! Even in the contrived example above, it’s clear we saved a decent amount of code. We didn’t have to write .then, create an anonymous function to handle the response, or give a name data to a variable that we don’t need to use. We also avoided nesting our code. These small advantages add up quickly, which will become more obvious in the following code examples.
 
-2. Error handling
+##2. Error handling
 Async/await makes it finally possible to handle both synchronous and asynchronous errors with the same construct, good old try/catch. In the example below with promises, the try/catch will not handle if JSON.parse fails because it’s happening inside a promise. We need to call .catch on the promise and duplicate our error handling code, which will (hopefully) be more sophisticated than console.log in your production ready code.
 
 
